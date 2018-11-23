@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[DelegateManager sharedManager] addDelegate:self];
+    [[DelegateManager sharedManager] addDelegate:self withName:@"123"];
     
     return YES;
 }

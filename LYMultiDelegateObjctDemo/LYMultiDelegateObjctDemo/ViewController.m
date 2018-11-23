@@ -10,7 +10,8 @@
 #import "DelegateManager.h"
 
 @interface ViewController ()
-
+/* <#des#> */
+@property (nonatomic,copy) NSString *test;
 @end
 
 @implementation ViewController
@@ -18,12 +19,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [[DelegateManager sharedManager] addDelegate:self];
+    
+    self.test = @"13232dasdwdf23ff32ff";
+    
+    [[DelegateManager sharedManager] addDelegate:self.test withName:@"12323"];
+    
+    
+    [[DelegateManager sharedManager] addDelegate:self withName:@"12323"];
+    
+    [[DelegateManager sharedManager] addDelegate:self withName:@"12323"];
+    [[DelegateManager sharedManager] addDelegate:@"33" withName:@"12323"];
+    
+    NSString *str = @"3333232djhsdgwewf";
+    [[DelegateManager sharedManager] addDelegate:str withName:@"12323"];
+    
+    
 }
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[DelegateManager sharedManager] enumerateDeleagteUsingBlock:^(id delegate, BOOL *stop) {
+    NSString *name = @"12323";
+    [[DelegateManager sharedManager] enumerateDeleagteWithName:name usingBlock:^(id delegate, BOOL *stop) {
         NSLog(@"DELEGATE %@",delegate);
     }];
 }

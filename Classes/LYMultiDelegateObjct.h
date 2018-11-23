@@ -11,8 +11,6 @@
 #import <Foundation/Foundation.h>
 
 
-
-#pragma mark -
 @interface LYMultiDelegateObjct : NSObject
 #pragma mark -  delegate operation
 /**
@@ -38,7 +36,7 @@
 - (void)delegateCountDidChange:(NSInteger)count;
 
 /**
-  遍历代理包装对象
+  遍历代理
 
  @param block 遍历回调
  */
@@ -48,9 +46,9 @@
  给代理对象发送一个消息 供子类调用
  
  @param selector 通知代理的方法
- @param pargamrs 方法的参数数组 当参数为nil值时 传Null对象 如若数组后面连续全部为nil值时 后面参数可不穿 
+ @param parameteres 方法的参数数组 当参数为nil值时 传Null对象 如若数组后面连续全部为nil值时 后面参数可不穿
  */
-- (void)sendSelector:(SEL _Nonnull )selector toDelegatesWithObjects:(NSArray *_Nullable)pargamrs;
+- (void)sendSelector:(SEL _Nonnull )selector toDelegatesWithObjects:(NSArray *_Nullable)parameteres;
 
 @end
-/********************************************/
+

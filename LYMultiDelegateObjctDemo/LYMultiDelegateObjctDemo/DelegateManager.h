@@ -6,8 +6,8 @@
 //  Copyright © 2018年 Shangen Zhang. All rights reserved.
 //
 
-#import "LYMultiDelegateObjct.h"
+#import "LYMultiDelegateManager.h"
 
-@interface DelegateManager : LYMultiDelegateObjct
+@interface DelegateManager : LYMultiDelegateManager
 + (instancetype)sharedManager;
 @end

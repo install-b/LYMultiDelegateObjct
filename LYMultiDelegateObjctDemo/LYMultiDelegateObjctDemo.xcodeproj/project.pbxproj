@@ -15,6 +15,9 @@
 		A789A72B1FFDC18500490884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A789A7291FFDC18500490884 /* LaunchScreen.storyboard */; };
 		A789A7351FFDC25800490884 /* LYMultiDelegateObjct.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A7341FFDC25800490884 /* LYMultiDelegateObjct.m */; };
 		A7CEA3391FFDC66E00181694 /* DelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CEA3381FFDC66E00181694 /* DelegateManager.m */; };
+		A7F16C9F21A7B9D600907EB5 /* NSObject+LYSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F16C9921A7B9D600907EB5 /* NSObject+LYSelector.m */; };
+		A7F16CA021A7B9D600907EB5 /* LYWeakReferenceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F16C9D21A7B9D600907EB5 /* LYWeakReferenceObject.m */; };
+		A7F16CA121A7B9D600907EB5 /* LYMultiDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F16C9E21A7B9D600907EB5 /* LYMultiDelegateManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		A789A7341FFDC25800490884 /* LYMultiDelegateObjct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMultiDelegateObjct.m; sourceTree = "<group>"; };
 		A7CEA3371FFDC66E00181694 /* DelegateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegateManager.h; sourceTree = "<group>"; };
 		A7CEA3381FFDC66E00181694 /* DelegateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateManager.m; sourceTree = "<group>"; };
+		A7F16C9921A7B9D600907EB5 /* NSObject+LYSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYSelector.m"; sourceTree = "<group>"; };
+		A7F16C9A21A7B9D600907EB5 /* LYWeakReferenceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYWeakReferenceObject.h; sourceTree = "<group>"; };
+		A7F16C9B21A7B9D600907EB5 /* LYMultiDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMultiDelegateManager.h; sourceTree = "<group>"; };
+		A7F16C9C21A7B9D600907EB5 /* NSObject+LYSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYSelector.h"; sourceTree = "<group>"; };
+		A7F16C9D21A7B9D600907EB5 /* LYWeakReferenceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYWeakReferenceObject.m; sourceTree = "<group>"; };
+		A7F16C9E21A7B9D600907EB5 /* LYMultiDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMultiDelegateManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,12 @@
 			children = (
 				A789A7331FFDC25800490884 /* LYMultiDelegateObjct.h */,
 				A789A7341FFDC25800490884 /* LYMultiDelegateObjct.m */,
+				A7F16C9B21A7B9D600907EB5 /* LYMultiDelegateManager.h */,
+				A7F16C9E21A7B9D600907EB5 /* LYMultiDelegateManager.m */,
+				A7F16C9A21A7B9D600907EB5 /* LYWeakReferenceObject.h */,
+				A7F16C9D21A7B9D600907EB5 /* LYWeakReferenceObject.m */,
+				A7F16C9C21A7B9D600907EB5 /* NSObject+LYSelector.h */,
+				A7F16C9921A7B9D600907EB5 /* NSObject+LYSelector.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -171,8 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A789A7231FFDC18500490884 /* ViewController.m in Sources */,
+				A7F16CA121A7B9D600907EB5 /* LYMultiDelegateManager.m in Sources */,
 				A789A7201FFDC18500490884 /* AppDelegate.m in Sources */,
+				A7F16CA021A7B9D600907EB5 /* LYWeakReferenceObject.m in Sources */,
 				A789A7351FFDC25800490884 /* LYMultiDelegateObjct.m in Sources */,
+				A7F16C9F21A7B9D600907EB5 /* NSObject+LYSelector.m in Sources */,
 				A789A71D1FFDC18500490884 /* main.m in Sources */,
 				A7CEA3391FFDC66E00181694 /* DelegateManager.m in Sources */,
 			);
