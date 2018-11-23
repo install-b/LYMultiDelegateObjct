@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
 
   s.platform     = :os
-  s.platform     = :ios 8.0
+  s.platform     = :ios, "8.0"
 
 
   s.source       = { :git => "https://github.com/install-b/LYMultiDelegateObjct.git", :tag => s.version }
