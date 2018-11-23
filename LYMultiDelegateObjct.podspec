@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LYMultiDelegateObjct"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "An object that can add multiple delegates."
   s.description  = "An object that can add multiple delegates. 一个可以添加多个代理的对象。"
 
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
 
   s.platform     = :os
-  s.platform     = :ios
+  s.platform     = :ios 8.0
 
 
   s.source       = { :git => "https://github.com/install-b/LYMultiDelegateObjct.git", :tag => s.version }
