@@ -9,15 +9,12 @@
 import UIKit
 
 open class SafeExcute {
-    
     private static let queueKey = DispatchSpecificKey<Int>()
-
-    private lazy var excuteSafeQueue: DispatchQueue = DispatchQueue.init(label: "\(self)_queue")
-
+    private lazy var safeQueue = DispatchQueue.init(label: "\(self)_queue")
     private lazy var queueContext: Int = unsafeBitCast(self, to: Int.self)
 
     public init() {
-        excuteSafeQueue.setSpecific(key: Self.queueKey, value: queueContext)
+        safeQueue.setSpecific(key: Self.queueKey, value: queueContext)
     }
 }
 
@@ -26,6 +23,6 @@ public extension SafeExcute {
         /// 相同队列 直接执行
         if queueContext == DispatchQueue.getSpecific(key: Self.queueKey){ return try block() }
         /// 其他的队列 串行执行
-        return try excuteSafeQueue.sync(execute: block)
+        return try safeQueue.sync(execute: block)
     }
 }

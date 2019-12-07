@@ -9,7 +9,7 @@
 import Foundation
 
 @objc public protocol MultiProxyObjectDelegate {
-    /// 代理数量
+    /// 代理数量变化监听方法
     func delegateCountDidChange(_ obj: Any, count: Int)
 }
 
@@ -92,7 +92,9 @@ public extension MultiProxyObject {
             })
         }
     }
-    
+}
+
+extension MultiProxyObject {
     /// 边遍历边删除销毁的proxy 和 需要删除的proxy
     /// - Parameters:
     ///   - proxyLink: 传入得
