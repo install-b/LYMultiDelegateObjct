@@ -61,6 +61,9 @@
     }
     return self;
 }
+- (void)delegateCountDidChange:(NSInteger)count {
+    [self.delegate multiDelegateObjct:self delegateCountDidChange:count];
+}
 @end
 
 

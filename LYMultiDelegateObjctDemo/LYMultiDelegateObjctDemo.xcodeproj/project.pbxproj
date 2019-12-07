@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A74ADB4E239003D0000E65EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB4D239003D0000E65EC /* AppDelegate.swift */; };
+		A74ADB52239003D0000E65EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB51239003D0000E65EC /* ViewController.swift */; };
+		A74ADB55239003D0000E65EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB53239003D0000E65EC /* Main.storyboard */; };
+		A74ADB57239003D0000E65EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB56239003D0000E65EC /* Assets.xcassets */; };
+		A74ADB5A239003D0000E65EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB58239003D0000E65EC /* LaunchScreen.storyboard */; };
+		A74ADB602390044C000E65EC /* WeakProxyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */; };
+		A74ADB62239005C8000E65EC /* MultiProxyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB61239005C8000E65EC /* MultiProxyObject.swift */; };
+		A74ADB6423900BBD000E65EC /* SafeExcute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB6323900BBD000E65EC /* SafeExcute.swift */; };
+		A74ADB66239013E1000E65EC /* DelegateCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB65239013E1000E65EC /* DelegateCenter.swift */; };
 		A789A71D1FFDC18500490884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A71C1FFDC18500490884 /* main.m */; };
 		A789A7201FFDC18500490884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A71F1FFDC18500490884 /* AppDelegate.m */; };
 		A789A7231FFDC18500490884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A7221FFDC18500490884 /* ViewController.m */; };
@@ -21,6 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A74ADB4B239003D0000E65EC /* MultiDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74ADB4D239003D0000E65EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74ADB51239003D0000E65EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74ADB54239003D0000E65EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74ADB56239003D0000E65EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A74ADB59239003D0000E65EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A74ADB5B239003D0000E65EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxyLink.swift; sourceTree = "<group>"; };
+		A74ADB61239005C8000E65EC /* MultiProxyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiProxyObject.swift; sourceTree = "<group>"; };
+		A74ADB6323900BBD000E65EC /* SafeExcute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeExcute.swift; sourceTree = "<group>"; };
+		A74ADB65239013E1000E65EC /* DelegateCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateCenter.swift; sourceTree = "<group>"; };
 		A789A7181FFDC18500490884 /* LYMultiDelegateObjctDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMultiDelegateObjctDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789A71C1FFDC18500490884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A789A71E1FFDC18500490884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,6 +64,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A74ADB48239003D0000E65EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A789A7151FFDC18500490884 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,11 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A74ADB4C239003D0000E65EC /* MultiDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A74ADB4D239003D0000E65EC /* AppDelegate.swift */,
+				A74ADB51239003D0000E65EC /* ViewController.swift */,
+				A74ADB65239013E1000E65EC /* DelegateCenter.swift */,
+				A74ADB61239005C8000E65EC /* MultiProxyObject.swift */,
+				A74ADB6323900BBD000E65EC /* SafeExcute.swift */,
+				A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */,
+				A74ADB53239003D0000E65EC /* Main.storyboard */,
+				A74ADB56239003D0000E65EC /* Assets.xcassets */,
+				A74ADB58239003D0000E65EC /* LaunchScreen.storyboard */,
+				A74ADB5B239003D0000E65EC /* Info.plist */,
+			);
+			path = MultiDelegate;
+			sourceTree = "<group>";
+		};
 		A789A70F1FFDC18500490884 = {
 			isa = PBXGroup;
 			children = (
 				A789A7321FFDC25800490884 /* Classes */,
 				A789A71A1FFDC18500490884 /* LYMultiDelegateObjctDemo */,
+				A74ADB4C239003D0000E65EC /* MultiDelegate */,
 				A789A7191FFDC18500490884 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A789A7181FFDC18500490884 /* LYMultiDelegateObjctDemo.app */,
+				A74ADB4B239003D0000E65EC /* MultiDelegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +162,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A74ADB4A239003D0000E65EC /* MultiDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74ADB5E239003D0000E65EC /* Build configuration list for PBXNativeTarget "MultiDelegate" */;
+			buildPhases = (
+				A74ADB47239003D0000E65EC /* Sources */,
+				A74ADB48239003D0000E65EC /* Frameworks */,
+				A74ADB49239003D0000E65EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDelegate;
+			productName = MultiDelegate;
+			productReference = A74ADB4B239003D0000E65EC /* MultiDelegate.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A789A7171FFDC18500490884 /* LYMultiDelegateObjctDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A789A72F1FFDC18500490884 /* Build configuration list for PBXNativeTarget "LYMultiDelegateObjctDemo" */;
@@ -139,9 +202,14 @@
 		A789A7101FFDC18500490884 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Shangen Zhang";
 				TargetAttributes = {
+					A74ADB4A239003D0000E65EC = {
+						CreatedOnToolsVersion = 11.2.1;
+						ProvisioningStyle = Automatic;
+					};
 					A789A7171FFDC18500490884 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = QDH66RGJXX;
@@ -154,6 +222,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -163,11 +232,22 @@
 			projectRoot = "";
 			targets = (
 				A789A7171FFDC18500490884 /* LYMultiDelegateObjctDemo */,
+				A74ADB4A239003D0000E65EC /* MultiDelegate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A74ADB49239003D0000E65EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74ADB5A239003D0000E65EC /* LaunchScreen.storyboard in Resources */,
+				A74ADB57239003D0000E65EC /* Assets.xcassets in Resources */,
+				A74ADB55239003D0000E65EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A789A7161FFDC18500490884 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +261,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A74ADB47239003D0000E65EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74ADB6423900BBD000E65EC /* SafeExcute.swift in Sources */,
+				A74ADB52239003D0000E65EC /* ViewController.swift in Sources */,
+				A74ADB4E239003D0000E65EC /* AppDelegate.swift in Sources */,
+				A74ADB66239013E1000E65EC /* DelegateCenter.swift in Sources */,
+				A74ADB602390044C000E65EC /* WeakProxyLink.swift in Sources */,
+				A74ADB62239005C8000E65EC /* MultiProxyObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A789A7141FFDC18500490884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +292,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A74ADB53239003D0000E65EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74ADB54239003D0000E65EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74ADB58239003D0000E65EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74ADB59239003D0000E65EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		A789A7241FFDC18500490884 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,6 +327,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A74ADB5C239003D0000E65EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MultiDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aisi.MultiDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A74ADB5D239003D0000E65EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = MultiDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aisi.MultiDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A789A72D1FFDC18500490884 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -339,6 +508,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A74ADB5E239003D0000E65EC /* Build configuration list for PBXNativeTarget "MultiDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74ADB5C239003D0000E65EC /* Debug */,
+				A74ADB5D239003D0000E65EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A789A7131FFDC18500490884 /* Build configuration list for PBXProject "LYMultiDelegateObjctDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
