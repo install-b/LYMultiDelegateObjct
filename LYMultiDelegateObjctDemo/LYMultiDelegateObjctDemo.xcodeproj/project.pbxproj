@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72EB7FD23D19B9D009F463C /* MultiProxyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EB7F923D19B9D009F463C /* MultiProxyObject.swift */; };
+		A72EB7FE23D19B9D009F463C /* DelegateCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EB7FA23D19B9D009F463C /* DelegateCenter.swift */; };
+		A72EB7FF23D19B9D009F463C /* WeakProxyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EB7FB23D19B9D009F463C /* WeakProxyLink.swift */; };
+		A72EB80023D19B9D009F463C /* SafeExcute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72EB7FC23D19B9D009F463C /* SafeExcute.swift */; };
 		A74ADB4E239003D0000E65EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB4D239003D0000E65EC /* AppDelegate.swift */; };
 		A74ADB52239003D0000E65EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB51239003D0000E65EC /* ViewController.swift */; };
 		A74ADB55239003D0000E65EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB53239003D0000E65EC /* Main.storyboard */; };
 		A74ADB57239003D0000E65EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB56239003D0000E65EC /* Assets.xcassets */; };
 		A74ADB5A239003D0000E65EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74ADB58239003D0000E65EC /* LaunchScreen.storyboard */; };
-		A74ADB602390044C000E65EC /* WeakProxyLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */; };
-		A74ADB62239005C8000E65EC /* MultiProxyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB61239005C8000E65EC /* MultiProxyObject.swift */; };
-		A74ADB6423900BBD000E65EC /* SafeExcute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB6323900BBD000E65EC /* SafeExcute.swift */; };
-		A74ADB66239013E1000E65EC /* DelegateCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74ADB65239013E1000E65EC /* DelegateCenter.swift */; };
 		A789A71D1FFDC18500490884 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A71C1FFDC18500490884 /* main.m */; };
 		A789A7201FFDC18500490884 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A71F1FFDC18500490884 /* AppDelegate.m */; };
 		A789A7231FFDC18500490884 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A789A7221FFDC18500490884 /* ViewController.m */; };
@@ -30,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72EB7F923D19B9D009F463C /* MultiProxyObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiProxyObject.swift; path = ../../../DelegateCenter/MultiProxyObject.swift; sourceTree = "<group>"; };
+		A72EB7FA23D19B9D009F463C /* DelegateCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DelegateCenter.swift; path = ../../../DelegateCenter/DelegateCenter.swift; sourceTree = "<group>"; };
+		A72EB7FB23D19B9D009F463C /* WeakProxyLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakProxyLink.swift; path = ../../../DelegateCenter/WeakProxyLink.swift; sourceTree = "<group>"; };
+		A72EB7FC23D19B9D009F463C /* SafeExcute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SafeExcute.swift; path = ../../../DelegateCenter/SafeExcute.swift; sourceTree = "<group>"; };
 		A74ADB4B239003D0000E65EC /* MultiDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74ADB4D239003D0000E65EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A74ADB51239003D0000E65EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,10 +41,6 @@
 		A74ADB56239003D0000E65EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A74ADB59239003D0000E65EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A74ADB5B239003D0000E65EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxyLink.swift; sourceTree = "<group>"; };
-		A74ADB61239005C8000E65EC /* MultiProxyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiProxyObject.swift; sourceTree = "<group>"; };
-		A74ADB6323900BBD000E65EC /* SafeExcute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeExcute.swift; sourceTree = "<group>"; };
-		A74ADB65239013E1000E65EC /* DelegateCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateCenter.swift; sourceTree = "<group>"; };
 		A789A7181FFDC18500490884 /* LYMultiDelegateObjctDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYMultiDelegateObjctDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A789A71C1FFDC18500490884 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A789A71E1FFDC18500490884 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,15 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A72EB7F823D19B72009F463C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A72EB7FA23D19B9D009F463C /* DelegateCenter.swift */,
+				A72EB7F923D19B9D009F463C /* MultiProxyObject.swift */,
+				A72EB7FC23D19B9D009F463C /* SafeExcute.swift */,
+				A72EB7FB23D19B9D009F463C /* WeakProxyLink.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A74ADB4C239003D0000E65EC /* MultiDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				A72EB7F823D19B72009F463C /* Classes */,
 				A74ADB4D239003D0000E65EC /* AppDelegate.swift */,
 				A74ADB51239003D0000E65EC /* ViewController.swift */,
-				A74ADB65239013E1000E65EC /* DelegateCenter.swift */,
-				A74ADB61239005C8000E65EC /* MultiProxyObject.swift */,
-				A74ADB6323900BBD000E65EC /* SafeExcute.swift */,
-				A74ADB5F2390044C000E65EC /* WeakProxyLink.swift */,
 				A74ADB53239003D0000E65EC /* Main.storyboard */,
 				A74ADB56239003D0000E65EC /* Assets.xcassets */,
 				A74ADB58239003D0000E65EC /* LaunchScreen.storyboard */,
@@ -208,6 +216,7 @@
 				TargetAttributes = {
 					A74ADB4A239003D0000E65EC = {
 						CreatedOnToolsVersion = 11.2.1;
+						DevelopmentTeam = LZ5TGFY9AN;
 						ProvisioningStyle = Automatic;
 					};
 					A789A7171FFDC18500490884 = {
@@ -265,12 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74ADB6423900BBD000E65EC /* SafeExcute.swift in Sources */,
+				A72EB80023D19B9D009F463C /* SafeExcute.swift in Sources */,
+				A72EB7FD23D19B9D009F463C /* MultiProxyObject.swift in Sources */,
+				A72EB7FF23D19B9D009F463C /* WeakProxyLink.swift in Sources */,
 				A74ADB52239003D0000E65EC /* ViewController.swift in Sources */,
 				A74ADB4E239003D0000E65EC /* AppDelegate.swift in Sources */,
-				A74ADB66239013E1000E65EC /* DelegateCenter.swift in Sources */,
-				A74ADB602390044C000E65EC /* WeakProxyLink.swift in Sources */,
-				A74ADB62239005C8000E65EC /* MultiProxyObject.swift in Sources */,
+				A72EB7FE23D19B9D009F463C /* DelegateCenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ5TGFY9AN;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = MultiDelegate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -374,6 +384,7 @@
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LZ5TGFY9AN;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = MultiDelegate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

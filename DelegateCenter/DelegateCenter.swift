@@ -9,8 +9,8 @@
 import UIKit
 
 open class DelegateCenter: SafeExcute {
-    
-    private var delegateCollection: [String: Any] = [String: Any]()
+    public static let `default` = DelegateCenter()
+    private(set) var delegateCollection: [String: Any] = [String: Any]()
     
     private func lazyGetMultiProxyObject<T>() -> MultiProxyObject<T> where T: NSObjectProtocol {
         excute {

@@ -13,6 +13,28 @@ import Foundation
     func delegateCountDidChange(_ obj: Any, count: Int)
 }
 
+
+/// 组合模式拓展
+public protocol MultiProxyObjectExcute {
+    associatedtype MPT: NSObjectProtocol
+    var proxyObject: MultiProxyObject<MPT> { get }
+}
+public extension MultiProxyObjectExcute {
+    @discardableResult
+    func add(delegate: MPT) -> Bool {
+        proxyObject.add(delegate: delegate)
+    }
+    
+    @discardableResult
+    func remove(delegate: MPT) -> Bool {
+        proxyObject.remove(delegate: delegate)
+    }
+
+    func enumerateDelegate(using block:((_ delegate: MPT, _ stop: UnsafeMutablePointer<ObjCBool>) -> Void)) {
+        proxyObject.enumerateDelegate(using: block)
+    }
+}
+
 /// 多代理对象
 open class MultiProxyObject<T>: SafeExcute where T: NSObjectProtocol {
     /// 代理数量 
